@@ -1,5 +1,5 @@
 {
-  "name": "eslint-trove",
+  "name": "eslint-plugin-trove",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,6 +8,10 @@
   },
   "author": "Eric Bower",
   "license": "MIT",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+  ],
   "peerDependencies": {
     "eslint": "^4.3.0"
   },
