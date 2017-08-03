@@ -1,7 +1,7 @@
 /* eslint-disable global-require */
 
 const allRules = {
-  'prefer-selector': require('./lib/rules/prefer-selector'),
+  'no-state-prop': require('./lib/rules/no-state-prop'),
 };
 
 module.exports = {
@@ -9,12 +9,12 @@ module.exports = {
   configs: {
     all: {
       rules: {
-        'trove/prefer-selector': 2,
+        'trove/no-state-prop': 2,
       },
     },
     recommended: {
       rules: {
-        'trove/prefer-selector': 2,
+        'trove/no-state-prop': 2,
       },
     },
   },
