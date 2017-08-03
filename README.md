@@ -1,4 +1,4 @@
-Eslint Plugin Trove
+Eslint Plugin Trove [![Build Status](https://travis-ci.org/notion/eslint-plugin-trove.svg?branch=master)](https://travis-ci.org/notion/eslint-plugin-trove)
 ===================
 
 ### Rules

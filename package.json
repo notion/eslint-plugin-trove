@@ -10,7 +10,7 @@
   "license": "MIT",
   "keywords": [
     "eslint",
-    "eslintplugin",
+    "eslintplugin"
   ],
   "peerDependencies": {
     "eslint": "^4.3.0"
