@@ -300,6 +300,12 @@ estraverse@^4.0.0, estraverse@^4.1.0, estraverse@^4.1.1, estraverse@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-4.2.0.tgz#0dee3fed31fcd469618ce7342099fc1afa0bdb13"
 
+estree-walk@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/estree-walk/-/estree-walk-1.0.0.tgz#9db3c0ead87ff5675d767815b9247325c3d3f60f"
+  dependencies:
+    free-context "0.0.0"
+
 esutils@^2.0.2:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/esutils/-/esutils-2.0.2.tgz#0abf4f1caa5bcb1f7a9d8acc6dea4faaa04bac9b"
@@ -341,6 +347,10 @@ flat-cache@^1.2.1:
     del "^2.0.2"
     graceful-fs "^4.1.2"
     write "^0.2.1"
+
+free-context@0.0.0:
+  version "0.0.0"
+  resolved "https://registry.yarnpkg.com/free-context/-/free-context-0.0.0.tgz#9bfea101ad929764ddb6baa7a9239ea74fb75f28"
 
 fs.realpath@^1.0.0:
   version "1.0.0"
