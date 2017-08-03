@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-trove",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,6 @@
     "mocha": "^3.5.0"
   },
   "dependencies": {
-    "estree-walk": "^1.0.0"
+    "estree-walk": "git+https://git@github.com/notion/estree-walk.git"
   }
 }

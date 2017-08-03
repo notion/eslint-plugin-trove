@@ -300,9 +300,9 @@ estraverse@^4.0.0, estraverse@^4.1.0, estraverse@^4.1.1, estraverse@^4.2.0:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/estraverse/-/estraverse-4.2.0.tgz#0dee3fed31fcd469618ce7342099fc1afa0bdb13"
 
-estree-walk@^1.0.0:
+"estree-walk@git+https://git@github.com/notion/estree-walk.git":
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/estree-walk/-/estree-walk-1.0.0.tgz#9db3c0ead87ff5675d767815b9247325c3d3f60f"
+  resolved "git+https://git@github.com/notion/estree-walk.git#62c83050a2cd66692e2cfd04804ed5ce9287c600"
   dependencies:
     free-context "0.0.0"
 
