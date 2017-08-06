@@ -20,6 +20,6 @@
     "mocha": "^3.5.0"
   },
   "dependencies": {
-    "estree-walk": "git+https://git@github.com/notion/estree-walk.git"
+    "estree-walk": "^2.2.0"
   }
 }
