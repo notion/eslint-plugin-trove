@@ -3,9 +3,28 @@ Eslint Plugin Trove [![Build Status](https://travis-ci.org/notion/eslint-plugin-
 
 ### Rules
 
+`module-boundary`:
+* Cannot reach into top-level `notion-modules` packages
+
 `no-state-prop`:
 * Cannot access `state` properties directly inside `mapStateToProps`, must use function like `getStatePropertyX(state)`
 * Cannot access `state` properties directly inside `createSelector`
+
+#### `module-boundary`
+
+This rule will check all import/require to ensure it does not reach into a top-level `notion-modules` package
+
+##### Valid
+
+```js
+import { actionCreators } from 'notion-modules/thread';
+```
+
+##### Invalid
+
+```js
+import { actionCreators } from 'notion-modules/thread/message';
+```
 
 #### `no-state-prop`
 
