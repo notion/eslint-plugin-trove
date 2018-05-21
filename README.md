@@ -104,7 +104,7 @@ expectGen(effect)
 ```js
 expectGen(effect)
   .next()
-  .toJSON;
+  .toJSON();
 ```
 
 ##### Invalid
