@@ -1,6 +1,6 @@
 {
   "name": "@trove/eslint-plugin-trove",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Trove eslint rules",
   "main": "index.js",
   "scripts": {
