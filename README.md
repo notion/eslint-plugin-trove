@@ -10,6 +10,9 @@ Eslint Plugin Trove [![Build Status](https://travis-ci.org/notion/eslint-plugin-
 * Cannot access `state` properties directly inside `mapStateToProps`, must use function like `getStatePropertyX(state)`
 * Cannot access `state` properties directly inside `createSelector`
 
+`expect-gen-run`:
+* Must invoke either `run` or `toJSON` when using `expectGen`
+
 #### `module-boundary`
 
 This rule will check all import/require to ensure it does not reach into a top-level `notion-modules` package
@@ -83,3 +86,31 @@ const getItem = createSelector(
   (item) => item
 );
 ```
+
+#### `expect-gen-run`
+
+This rule will check any use of `expectGen` to ensure `.run()` or `.toJSON()` is called.
+
+##### Valid
+
+```js
+expectGen(effect)
+  .next()
+  .run();
+```
+
+##### Valid
+
+```js
+expectGen(effect)
+  .next()
+  .toJSON;
+```
+
+##### Invalid
+
+```js
+expectGen(effect)
+  .next();
+```
+
